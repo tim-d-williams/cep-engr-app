@@ -1,1 +1,101 @@
-// All of your CSS goes here
+
+html body {
+  background-color: #B8BDBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  font-size: 6em;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Kalam', cursive;
+  position: relative;
+  top: -375px;
+}
+
+h2 {
+  position: relative;
+  top: -475px;
+  color: white;
+  font-size: 4em;
+  text-align: center;
+}
+
+p {
+  display: block;
+  margin-right: 50px;
+}
+
+.image {
+  width: 40%;
+  border-radius: 3%;
+  float: left;
+  display: block;
+  margin: 25px auto auto 50px;
+  position: relative;
+  border: 2px;
+  border-style: solid;
+  border-color: #074391;
+}
+
+span.row {
+  display: table-row;
+}
+
+.masthead {
+  height: 400px;
+}
+
+.banner {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+.table  {
+  width: 50%;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 25px;
+  margin-left: 25px;
+}
+
+div.moretext {
+  margin: 0px 50px auto 45%;
+  position: absolute;
+  font-size: 1.25em;
+  line-height: 1.5em;
+  width: 50%;
+}
+
+.button {
+  background-color: #074391;
+  border: none;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  border-radius: 6px;
+  width: 70px;
+  height: 55px;
+  padding: 10px;
+  position: relative;
+}
+
+.output {
+  display: table-cell;
+  padding: 6px;
+  font-size: 1.25em;
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+ .disabled {
+   display: none;
+ }
